@@ -1,0 +1,10 @@
+# Site settings
+title: Dave Hunt, Automationeer
+email: dave.hunt@gmail.com
+baseurl: ""
+url: "http://davehunt.co.uk"
+twitter_username: davehunt82
+github_username: davehunt
+
+# Build settings
+markdown: kramdown
