@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Experimenting with Jekyll"
+date: 2017-07-26 14:27 +0100
 categories: "blog"
 tags: "jekyll, github pages, markdown"
 ---
