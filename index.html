@@ -14,7 +14,7 @@ layout: default
         </h2>
         {% if post.content contains site.excerpt_separator %}
            <p>{{ post.excerpt | remove: '</p>' }}
-             <a class="post-excerpt-link" href="{{ post.url | prepend: site.baseurl }}"> &raquo;&nbsp;continue reading&hellip;</a></p>
+             <a class="post-excerpt-link" href="{{ post.url | prepend: site.baseurl }}"> &raquo; continue reading&hellip;</a></p>
         {% else %}
           {{ post.excerpt }}
         {% endif %}
