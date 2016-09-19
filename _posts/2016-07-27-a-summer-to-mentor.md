@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "A Summer to Mentor"
-date: 2017-07-27 09:59:33 +0100
-categories: "mozilla"
-tags: "mentoring"
+title: A Summer to Mentor
+author: Dave Hunt
+date: 2016-07-27 09:59:33 +0100
+categories: mozilla
+tags: mentoring
 ---
 
 This summer I am mentoring [Justin Potts](http://justinpotts.co/) – a university

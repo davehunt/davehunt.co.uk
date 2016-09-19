@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Experimenting with Jekyll"
-date: 2017-07-26 14:27 +0100
-categories: "blog"
-tags: "jekyll, github pages, markdown"
+title: Experimenting with Jekyll
+author: Dave Hunt
+date: 2016-07-26 14:27 +0100
+categories: blog
+tags: jekyll, github pages, markdown
 ---
 I've decided that Wordpress is really overkill for what I need, so I'm going to
 experiment with using [Jekyll](https://jekyllrb.com/) with [GitHub
