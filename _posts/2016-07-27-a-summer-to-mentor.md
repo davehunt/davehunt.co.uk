@@ -5,6 +5,7 @@ author: Dave Hunt
 date: 2016-07-27 09:59:33 +0100
 categories: mozilla
 tags: mentoring
+comments: true
 ---
 This summer I am mentoring [Justin Potts](http://justinpotts.co/) – a university
 intern working on improving Mozilla’s add-ons related test automation, and [Ana
