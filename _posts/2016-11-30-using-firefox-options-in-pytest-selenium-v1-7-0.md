@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Using Firefox options in pytest-selenium v1.7.0
+title: Using Firefox options in pytest-selenium
 author: Dave Hunt
 categories:
 - selenium
@@ -10,10 +10,11 @@ tags:
 - firefox
 comments: true
 ---
-I'm please to announce that pytest-selenium v1.7.0 has been released, and
-there's a change to the way Firefox options are handled. Previously, the profile
-and binary path for Firefox were passed as keyword arguments when instantiating
-the Firefox driver. Now, this is handled by an `Options` object.
+I'm please to announce that pytest-selenium
+[v1.7.0](https://pypi.python.org/pypi/pytest-selenium/1.7.0) has been released,
+and there's a change to the way Firefox options are handled. Previously, the
+profile and binary path for Firefox were passed as keyword arguments when
+instantiating the Firefox driver. Now, this is handled by an `Options` object.
 
 This just means that the creation of the driver object when using Firefox has
 gone from look something like this:
