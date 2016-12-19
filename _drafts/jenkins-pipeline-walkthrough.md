@@ -109,7 +109,7 @@ against specific versions of Python.
 
 ## Linting stage
 Before we run our tests, we check that the code meets our linting standards. For
-most of our projects this means running [flake8][] with any project specific
+most of our projects, this means running [flake8][] with any project-specific
 overrides defined. As we're using [Tox][] to run this, the stage is pretty
 simple. We just un-stash the workspace, and execute the appropriate Tox
 environment:
@@ -131,16 +131,16 @@ Some of our projects only execute tests against a single environment, however
 it's more common to have multiple. For example, we may want to run the same
 tests on multiple environments (operating system, browser, etc), or we may have
 different suites for desktop and mobile. For this walkthrough I'll cover the
-multiple environment scenario.
+multiple-environment scenario.
 
 ### Desired capabilities
-The functional UI tests for our web projects use [Selenium](), and the way you
+The functional UI tests for our Web projects use [Selenium](), and the way you
 specify target environments and additional configuration is through desired
 capabilities. Depending on your Selenium client and chosen framework, these
 capabilities can be specified in different ways. We're using the official Python
 client and [pytest-selenium][], which allows capabilities to be specified in a
 file using a 'capabilities' key via [pytest-variables][]. In our pipelines we
-have a `writeCapabilities` function, which accepts a map, and merges this will
+have a `writeCapabilities` function, which accepts a map, and merges this with
 some predefined defaults before creating a JSON file:
 
 ```groovy
@@ -185,11 +185,11 @@ def environments = [
 ```
 
 In our pipelines we pass the value for each environment to the
-`writeCapabilities`, which creates a `capabilities.json` file as described
-above.
+`writeCapabilities` function, which creates a `capabilities.json` file as
+described above.
 
 ### Variables
-To access application specific variables such as credentials, we use the
+To access application-specific variables such as credentials, we use the
 `withCredentials` wrapper. These variables are stored as credentials files in
 Jenkins, and need to be uploaded before your pipeline can use them:
 
@@ -210,7 +210,7 @@ line option to our pytest command.
 ### Additional pytest options
 Options for [pytest][] are typically specified on the command line, however they
 can also be defined via the `PYTEST_ADDOPTS` environment variable. In our
-pipelines we use `withEnv` to build the value for this variable. One example
+pipelines, we use `withEnv` to build the value for this variable. One example
 command line option is the number of parallel processes to use with
 [pytest-xdist][]. Here, we allow a `PYTEST_PROCESSES` variable to be used, but
 default to 'auto'. I've slightly simplified the following example for
@@ -249,7 +249,7 @@ try {
 ```
 
 Our tests are expected to write the results to a `results` subdirectory in the
-workspace, which is defined in our `tox.ini`. We use the name of the tox
+workspace, which is defined in our `tox.ini`. We use the name of the Tox
 environment to stash the results for later retrieval.
 
 ### Running environments in parallel
@@ -292,9 +292,9 @@ to catch out a lot of people new to pipelines. More details of this issue can be
 found [here][JENKINS-27421].
 
 ## Reporting
-Currently pipelines do not support post-build steps, so reporting of results
+Currently, pipelines do not support post-build steps, so reporting of results
 need to be in their own stage. This will be resolved by the
-[Pipeline Model Definition plugin][], which is currently in beta. As with
+[Pipeline Model Definition plugin][], which is still in beta. As with
 gathering the test results, it's necessary to catch an exception from the test
 stage so that we always report the results:
 
