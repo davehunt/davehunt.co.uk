@@ -37,7 +37,7 @@ applications:
   [Credentials Binding plugin][] plugin to access it from our pipelines.
 
 ### Credentials
-We use Jenkins credentials for securely storing text a file based sensitive
+We use Jenkins credentials for securely storing text and file-based sensitive
 data. These are then accessible to pipelines through the
 [Credentials Binding plugin][].
 
@@ -57,7 +57,7 @@ identifying steps that are taking exceptionally long to execute. This plugin is
 used by nesting your steps inside a `timestamps` step.
 
 ### ANSI colours
-Some console output uses ANSI colours, such as the test outcome. By default
+Some console output uses ANSI colours, such as the test outcome. By default,
 Jenkins will not interpret these colours in the console log. We use the
 [ANSIColor plugin][], and enable this in our pipelines by using the build
 wrapper:
@@ -70,7 +70,7 @@ node {
 }
 ```
 
-This is an example of a plugin that doesn't have pipeline specific syntax yet,
+This is an example of a plugin that doesn't have pipeline-specific syntax yet,
 but it can still be used by knowing the Java class of the build wrapper. In
 time, hopefully all plugins will have more memorable and readable pipeline
 syntax.
@@ -105,10 +105,10 @@ stage('Checkout') {
 Our pipelines don't currently target specific nodes, so they could run on master
 or any worker attached. I suspect this is something we're likely to change for
 some stages, most likely using [docker][]. An example would be for running tests
-against specific versions of python.
+against specific versions of Python.
 
 ## Linting stage
-Before we run our tests we check that the code meets our linting standards. For
+Before we run our tests, we check that the code meets our linting standards. For
 most of our projects this means running [flake8][] with any project specific
 overrides defined. As we're using [Tox][] to run this, the stage is pretty
 simple. We just un-stash the workspace, and execute the appropriate Tox
@@ -137,7 +137,7 @@ multiple environment scenario.
 The functional UI tests for our web projects use [Selenium](), and the way you
 specify target environments and additional configuration is through desired
 capabilities. Depending on your Selenium client and chosen framework, these
-capabilities can be specified in different ways. We're using the official python
+capabilities can be specified in different ways. We're using the official Python
 client and [pytest-selenium][], which allows capabilities to be specified in a
 file using a 'capabilities' key via [pytest-variables][]. In our pipelines we
 have a `writeCapabilities` function, which accepts a map, and merges this will
