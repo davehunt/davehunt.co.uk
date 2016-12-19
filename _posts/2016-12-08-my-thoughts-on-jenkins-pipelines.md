@@ -9,8 +9,7 @@ tags:
 - pipelines
 comments: true
 ---
-# What are Jenkins pipelines?
-
+## What are Jenkins pipelines?
 Before [Jenkins pipelines][pipeline overview], all job configuration was stored as XML on the server, and only configurable via the web dashboard. There are a number of limitations to this approach. A few that come to mind are:
 
 * **Access to configuration is limited** - Either your developers are unable to modify job configurations, or your developers need administrative access to relevant jobs and an understanding of how to configure them.
@@ -61,7 +60,7 @@ The above example would then display each stage as a column, such as:
 
 ![Jenkins pipeline stage view]({{ site.github.url }}/assets/jenkins-pipeline-stage-view.png)
 
-# Issues encountered
+## Issues encountered
 
 As mentioned above, I've encountered a number of rough edges. Pipelines are in active development, and I expect them to become much more stable and easier to use in the coming months. Here's some of the limitations I've encountered, and issues I've had to overcome:
 
@@ -79,7 +78,7 @@ As mentioned above, I've encountered a number of rough edges. Pipelines are in a
 
 * **Scripts may need approval** - The pipelines execute in a sandbox, and only those considered safe are allowed to be executed. One of the ways safety is checked is via a whitelist of approved operations. I encountered an issue where a safe operation was not in the whitelist, and I had to approve the script in the administrative interface. I reported this, and the whitelist was updated, but I suspect there may be more operations considered safe that could be added to this list. You can read more about this on the [Script Security plugin][] page.
 
-# Overcoming issues
+## Overcoming issues
 I developed a few practices when dealing with the above issues, which I've shared here:
 
 * **Read the documentation** - Let's start with an obvious one. There's some great [documentation on pipelines][pipeline overview], and many [examples][pipeline examples]. It can be a little difficult to find what you need, and as pipelines are in active development you may encounter difficult styles or references to deprecated steps. I recommend persevering, and remember that Jenkins is an open source project. If you find issues with the documentation, there's a great opportunity for you to [make improvements][contributing docs] so others don't face the same struggle.
@@ -94,7 +93,7 @@ I developed a few practices when dealing with the above issues, which I've share
 
 * **Raise/vote/watch issues** - If you encounter an issue, see if it's been raised in the [issue tracker][]. If you find a match, vote for the issue to help indicate how many users are affected. You can also watch the issue so you get notified of any activity. If you don't find you issue, raise it with details of your environment and steps to reproduce. Remember, the more detail, the better the chance of the issue being fixed.
 
-# Coming soon
+## Coming soon
 There are a few things coming soon to pipelines that are rather exciting. Some of these are already available in beta.
 
 * **New user interface** - [Blue Ocean][] is a beautiful redesign of the user interface for viewing jobs, and it's already available (in beta) as a plugin. This really makes your pipelines stand out, and I'm particularly excited about how stages with parallel steps look:
@@ -107,7 +106,7 @@ There are a few things coming soon to pipelines that are rather exciting. Some o
 
 * **Pipeline linter** - I couldn't find anything on this, but I believe I've heard that there's been some work on a pipeline linter. This would be awesome to prevent the save->run->review cycle for simple syntax issues that could be caught earlier.
 
-# Conclusion
+## Conclusion
 Jenkins pipelines are incredibly powerful and raise the status of your jobs to the same level as your application code. I would certainly recommend looking into replacing your traditional jobs with pipelines, and if you're entirely new to Jenkins you should definitely start with pipelines. That said, you may encounter some frustrating issues. If this stops you from adopting pipelines, I would encourage you raise or vote on those issues and to check back every few months.
 
 [pipeline overview]: https://jenkins.io/doc/book/pipeline/overview/

@@ -23,7 +23,7 @@ with Justin and Ana, for the majority of their projects we had an ocean
 separating us. As a result some of what I'll talk about may be specific to the
 nature of this challenge.
 
-# Prepare a cohesive project
+## Prepare a cohesive project
 
 The two projects I mentored were very different. Ana's project was to enhance
 a python testing plugin that generates HTML reports to work under the
@@ -49,7 +49,7 @@ confidence that I know what my intern will work on from one day to the next.
 Nevertheless, next time I mentor I'll be trying to form a cohesive project
 roadmap ahead of time.
 
-# Find a suitable communication method
+## Find a suitable communication method
 
 At Mozilla we use [IRC] a **lot**, but this is not a natural or perhaps
 comfortable communication method for everyone. Perhaps because it's public, or
@@ -59,7 +59,7 @@ find what other forms of communication they felt comfortable in. While Justin
 and I used iMessage and Twitter DMs, Ana and I primarily used Hangouts and
 WhatsApp.
 
-# Check-in regularly
+## Check-in regularly
 
 This is very much something I learned the hard way. While I set up a regular
 video chat with Justin, I didn't do the same with Ana. With Justin in the
@@ -72,7 +72,7 @@ I'd send Ana a short message on Hangouts to ask how she was doing. This let her
 know that I was around if she had any problems she needed help with. I regret
 not doing this from the start of the project.
 
-# Keep notes
+## Keep notes
 
 It really helps to keep good notes. This doesn't have to mean lots of notes
 though! Keep a note of what is currently being worked on, who are the main
@@ -84,7 +84,7 @@ entirely based in GitHub we mainly used the issue tracker. With hindsight, I
 think a single place for Ana's project's notes would have been helpful too,
 rather than spreading them across GitHub issues.
 
-# Be open to new ideas and approaches
+## Be open to new ideas and approaches
 
 A personal challenge that I'm continuing to work on is to not have a fixed
 solution in my head when I approach code reviews. I did have to stop myself from
@@ -100,7 +100,7 @@ tempting, try to avoid providing the full solution. Suggest they search for a
 specific phrase, point them to a similar question online, or give them some
 pseudo-code.
 
-# Ask questions
+## Ask questions
 
 Obvious questions would be checking in for status, but don't stop at that.
 Perhaps ask them to explain why they took a particular approach, or ask what
@@ -110,7 +110,7 @@ getting to know about Justin's entrepreneurial ventures, his favourite football
 (soccer) team, and musical talents. I loved learning about Brazil from Ana, and
 about her travels to Paris and Turin.
 
-# Give feedback
+## Give feedback
 
 This one is harder than it sounds: it's easy to say "you're doing great"
 (especially if it's true), but it's not useful feedback. I need to continue
