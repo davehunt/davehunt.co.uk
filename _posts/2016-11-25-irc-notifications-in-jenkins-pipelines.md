@@ -3,12 +3,7 @@ layout: post
 title: IRC notifications from Jenkins pipelines
 author: Dave Hunt
 date: 2016-11-25 11:50:26 +0000
-categories:
-- continuous integration
-tags:
-- jenkins
-- pipelines
-- irc
+tags: [continuous integration, jenkins, pipelines, irc]
 comments: true
 ---
 I've been migrating several of our Jenkins jobs to [pipelines][], and one of

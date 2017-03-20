@@ -2,11 +2,7 @@
 layout: post
 title: Jenkins pipeline walkthrough
 author: Dave Hunt
-categories:
-- continuous integration
-tags:
-- jenkins
-- pipelines
+tags: [continuous integration, jenkins, pipelines]
 comments: true
 ---
 I've recently been migrating Mozilla's traditional Jenkins jobs for functional

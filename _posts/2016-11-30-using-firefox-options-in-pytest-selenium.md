@@ -2,12 +2,7 @@
 layout: post
 title: Using Firefox options in pytest-selenium
 author: Dave Hunt
-categories:
-- selenium
-tags:
-- selenium
-- pytest
-- firefox
+tags: selenium pytest firefox
 comments: true
 ---
 I'm pleased to announce that pytest-selenium

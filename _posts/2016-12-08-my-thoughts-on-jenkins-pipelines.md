@@ -2,11 +2,7 @@
 layout: post
 title: My thoughts on Jenkins pipelines
 author: Dave Hunt
-categories:
-- continuous integration
-tags:
-- jenkins
-- pipelines
+tags: [continuous integration, jenkins, pipelines]
 comments: true
 ---
 ## What are Jenkins pipelines?

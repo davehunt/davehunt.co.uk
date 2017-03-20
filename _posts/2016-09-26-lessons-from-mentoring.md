@@ -3,10 +3,7 @@ layout: post
 title: Lessons from mentoring
 author: Dave Hunt
 date: 2016-09-26 18:45:03 +0100
-categories:
-- mozilla
-tags:
-- mentoring
+tags: mentoring mozilla outreachy
 comments: true
 ---
 Now that my first two mentoring experiences have come to an end, I wanted to

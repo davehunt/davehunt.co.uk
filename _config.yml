@@ -9,3 +9,7 @@ excerpt_separator: ""
 
 # Build settings
 markdown: kramdown
+
+# Plugin: jekyll-tagging
+tag_page_layout: tag
+tag_page_dir: tag
