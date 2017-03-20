@@ -358,8 +358,8 @@ for now.
 Here's a [full example][] of one of our Jenkins pipelines.
 
 [pipelines]: https://jenkins.io/doc/book/pipeline/overview/
-[thoughts on pipelines]: {{ site.github.url }}/continuous%20integration/2016/12/08/my-thoughts-on-jenkins-pipelines.html
-[irc notifications]: {{ site.github.url }}/continuous%20integration/2016/11/25/irc-notifications-in-jenkins-pipelines.html
+[thoughts on pipelines]: {% post_url 2016-12-08-my-thoughts-on-jenkins-pipelines %}
+[irc notifications]: {% post_url 2016-11-25-irc-notifications-in-jenkins-pipelines %}
 [pytest-base-url]: https://pypi.python.org/pypi/pytest-base-url/
 [Sauce Labs]: http://saucelabs.com/
 [pytest-selenium]: https://pypi.python.org/pypi/pytest-selenium/

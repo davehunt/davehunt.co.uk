@@ -54,7 +54,7 @@ In the above example, each `node` will independently queue for an executor in Je
 
 The above example would then display each stage as a column, such as:
 
-![Jenkins pipeline stage view]({{ site.github.url }}/assets/jenkins-pipeline-stage-view.png)
+![Jenkins pipeline stage view](/assets/jenkins-pipeline-stage-view.png)
 
 ## Issues encountered
 
@@ -94,7 +94,7 @@ There are a few things coming soon to pipelines that are rather exciting. Some o
 
 * **New user interface** - [Blue Ocean][] is a beautiful redesign of the user interface for viewing jobs, and it's already available (in beta) as a plugin. This really makes your pipelines stand out, and I'm particularly excited about how stages with parallel steps look:
 
-![Jenkins pipeline in Blue Ocean]({{ site.github.url }}/assets/jenkins-pipeline-parallel-blue-ocean.png)
+![Jenkins pipeline in Blue Ocean](/assets/jenkins-pipeline-parallel-blue-ocean.png)
 
 * **Declarative pipelines** - The [Pipeline Model Definition plugin][] redefines the pipeline syntax, and adds more power to configuration as code. The new pipeline model definition allows for more control of the build environment, defining environment variables, post-build steps such as reporting test results and storing artefacts or notifications, and much more. This is also already available in beta, though recent releases have had backwards-incompatible changes, so I'd recommend waiting for things to stabilise.
 
