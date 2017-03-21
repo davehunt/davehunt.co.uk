@@ -12,7 +12,12 @@ layout: default
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
-        {{ post.excerpt }}
+        {% if post.content contains site.excerpt_separator %}
+           <p>{{ post.excerpt | remove: '</p>' }}
+             <a class="post-excerpt-link" href="{{ post.url | prepend: site.baseurl }}">&nbsp;&raquo; continue reading&hellip;</a></p>
+        {% else %}
+          {{ post.excerpt }}
+        {% endif %}
       </li>
     {% endfor %}
   </ul>

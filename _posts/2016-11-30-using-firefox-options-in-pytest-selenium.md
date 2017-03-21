@@ -9,7 +9,8 @@ I'm pleased to announce that pytest-selenium
 [v1.7.0](https://pypi.python.org/pypi/pytest-selenium/1.7.0) has been released,
 and there's a change to the way Firefox options are handled. Previously, the
 profile and binary path for Firefox were passed as keyword arguments when
-instantiating the Firefox driver. Now, this is handled by an `Options` object.
+instantiating the Firefox driver<!--more-->. Now, this is handled by an
+`Options` object.
 
 This just means that the creation of the driver object when using Firefox has
 gone from look something like this:

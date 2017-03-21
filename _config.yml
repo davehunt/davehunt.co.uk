@@ -5,7 +5,7 @@ baseurl: ""
 url: "http://davehunt.co.uk"
 twitter_username: davehunt82
 github_username: davehunt
-excerpt_separator: ""
+excerpt_separator: <!--more-->
 
 # Build settings
 markdown: kramdown

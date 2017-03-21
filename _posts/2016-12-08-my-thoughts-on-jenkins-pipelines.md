@@ -5,8 +5,7 @@ author: Dave Hunt
 tags: [continuous integration, jenkins, pipelines]
 comments: true
 ---
-## What are Jenkins pipelines?
-Before [Jenkins pipelines][pipeline overview], all job configuration was stored as XML on the server, and only configurable via the web dashboard. There are a number of limitations to this approach. A few that come to mind are:
+Before [Jenkins pipelines][pipeline overview], all job configuration was stored as XML on the server, and only configurable via the web dashboard. There are a number of limitations to this approach<!--more-->. A few that come to mind are:
 
 * **Access to configuration is limited** - Either your developers are unable to modify job configurations, or your developers need administrative access to relevant jobs and an understanding of how to configure them.
 

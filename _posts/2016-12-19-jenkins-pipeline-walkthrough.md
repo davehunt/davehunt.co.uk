@@ -11,7 +11,7 @@ some of the common features of these pipelines. I've included my reasons for
 these design choices, and highlighted limitations that I'm hoping will be
 resolved as pipelines evolve. I've also written a post on
 [my thoughts on Jenkins pipelines][thoughts on pipelines] and
-[IRC notifications in Jenkins pipelines][irc notifications].
+[IRC notifications in Jenkins pipelines][irc notifications]<!--more-->.
 
 ## Common practices
 
