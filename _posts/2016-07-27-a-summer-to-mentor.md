@@ -10,7 +10,7 @@ This summer I am mentoring [Justin Potts](http://justinpotts.co/) – a universi
 intern working on improving Mozilla’s add-ons related test automation, and [Ana
 Ribeiro](https://anaplusplus.com/) – an
 [Outreachy](https://outreachy.gnome.org/) participant working on enhancing
-the [pytest-html](https://github.com/pytest-dev/pytest-html) plugin<!--more-->.
+the [pytest-html](https://github.com/pytest-dev/pytest-html) plugin.<!--more-->
 
 It’s not my first time working with Justin, who has been a regular team
 contributor for a few years now, and last summer helped me to get the

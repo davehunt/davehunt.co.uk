@@ -11,7 +11,7 @@ reflect a little on the experience. Before I do, I want to say that I'm
 incredibly proud of what [Justin] and [Ana] were able to achieve this summer. I
 feel lucky to have had the opportunity to mentor such talented,
 enthusiastic, and motivated individuals. I hope they feel they've learned
-something of value during their projects - I most certainly have<!--more-->!
+something of value during their projects - I most certainly have!<!--more-->
 
 Something to note, before I get into my learnings - and advice for anyone about
 to embark on mentoring (or being mentored) - is that these were remote

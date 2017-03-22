@@ -17,7 +17,7 @@ the `master` branch to be used). Then, I found the neat
 [jekyll-github-deploy](https://github.com/yegor256/jekyll-github-deploy) tool,
 which builds the site and pushes to the `gh-pages` branch. So now each post
 includes a list of tags, and each tag links to a page listing the posts
-associated with that tag<!--more-->.
+associated with that tag.<!--more-->
 
 In making this change I've decided to drop the categories that were previously
 associated with posts, as I believe the tags are much more useful.

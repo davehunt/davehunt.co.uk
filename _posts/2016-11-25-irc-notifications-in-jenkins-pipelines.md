@@ -10,7 +10,7 @@ I've been migrating several of our Jenkins jobs to [pipelines][], and one of
 the challenges was preserving our IRC notifications whenever a build result
 changes. At this time, the [IRC plugin][] for Jenkins
 [doesn't include support for pipelines][JENKINS-33922], however it is still
-possible to trigger a notification using<!--more--> the `sh` step. The
+possible to trigger a notification using the `sh` step.<!--more--> The
 following snippet connects to `irc.mozilla.org` and sends a build result notice
 to `#fx-test-alerts`:
 
