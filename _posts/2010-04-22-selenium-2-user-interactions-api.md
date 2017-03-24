@@ -3,7 +3,6 @@ layout: post
 title: Selenium 2 User Interactions API
 author: Dave Hunt
 date: 2010-04-22 12:46:52 +0000
-categories: selenium
 tags: selenium event meetup london seleniumexamples.com
 ---
 Here are the slides from Eran Messeri's talk on the advanced user interactions
