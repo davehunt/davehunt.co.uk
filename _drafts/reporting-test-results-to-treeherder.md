@@ -46,7 +46,6 @@ I'd like to think that this model could be repeated for other continuous integra
 I would like to say thanks to the Treeherder team for their assistance and considerable patience whilst I worked on this.
 I'd also like to thank [Andrew Bayer] from the Jenkins team for his encouragement and assistance while I battled through a few Groovy and Jenkins pipeline issues. Whenever we're in the same city, I definitely owe that guy a drink!
 
-[activedata-post]: {% post_url 2017-03-21-analysing-pytest-results-using-activedata %}
 [ActiveData]: https://wiki.mozilla.org/EngineeringProductivity/Projects/ActiveData
 [Treeherder]: https://wiki.mozilla.org/EngineeringProductivity/Projects/Treeherder
 [Pulse]: https://wiki.mozilla.org/Auto-tools/Projects/Pulse
@@ -57,7 +56,6 @@ I'd also like to thank [Andrew Bayer] from the Jenkins team for his encouragemen
 [adding-github-repositories]: http://treeherder.readthedocs.io/submitting_data.html#adding-a-github-repository
 [TaskCluster integration]: https://github.com/integration/taskcluster
 [json-schema-validator]: https://github.com/daveclayton/json-schema-validator
-[declarative-pipelines-post]: {% post_url 2017-03-23-migrating-to-declarative-jenkins-pipelines %}
 [shared library]: https://github.com/mozilla/fxtest-jenkins-pipeline
 [bug 1352402]: https://bugzilla.mozilla.org/show_bug.cgi?id=1352402
 [bug 1352403]:https://bugzilla.mozilla.org/show_bug.cgi?id=1352403
@@ -71,3 +69,5 @@ I'd also like to thank [Andrew Bayer] from the Jenkins team for his encouragemen
 [Travis CI]: https://travis-ci.org/
 [CircleCI]: https://circleci.com/
 [Andrew Bayer]: https://github.com/abayer
+[activedata-post]: {% post_url 2017-03-21-analysing-pytest-results-using-activedata %}
+[declarative-pipelines-post]: {% post_url 2017-03-23-migrating-to-declarative-jenkins-pipelines %}
