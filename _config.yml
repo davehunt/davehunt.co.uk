@@ -1,14 +1,24 @@
 # Site settings
 title: Dave Hunt, Automationeer
+author: Dave Hunt
 email: dave.hunt@gmail.com
 baseurl: ""
 url: "http://davehunt.co.uk"
-twitter_username: davehunt82
 github_username: davehunt
+twitter_username: davehunt82
 excerpt_separator: <!--more-->
 
 # Build settings
 markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-youtube
+
+# Theme: minima
+disqus:
+  shortname: davehunt
+show_excerpts: true
 
 # Plugin: jekyll-tagging
 tag_page_layout: tag

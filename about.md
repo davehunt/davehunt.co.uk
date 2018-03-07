@@ -1,6 +1,7 @@
 ---
 layout: page
-title: "About"
+title: About
+permalink: /about/
 ---
 ![Gravatar](https://www.gravatar.com/avatar/fd74178aadc963ffc6397ad1e22d8ce7?s=150
 "Gravatar")
