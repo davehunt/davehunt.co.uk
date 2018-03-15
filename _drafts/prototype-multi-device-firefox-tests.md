@@ -280,9 +280,9 @@ If you're unable to run the tests locally, here's a recording of the test runnin
 [Firefox on iOS]: https://github.com/mozilla-mobile/firefox-ios
 [pytest]: https://docs.pytest.org/
 [PyFxA]: https://github.com/mozilla/PyFxA
-[FxACLI]: {{ site.baseurl }}{% post_url 2018-03-15-command-line-tool-for-firefox-accounts %}
 [TPS]: https://developer.mozilla.org/en-US/docs/Mozilla/Projects/TPS_Tests
 [building Firefox on iOS]: https://github.com/mozilla-mobile/firefox-ios#building-the-code
 [legacy Python]: http://docs.python-guide.org/en/latest/starting/installation/#legacy-python-2-installation-guides
 [pipenv]: https://docs.pipenv.org/
 [integration branch]: https://github.com/mozilla-mobile/firefox-ios/compare/master...davehunt:integration
+[FxACLI]: {{ site.baseurl }}{% post_url 2018-03-15-command-line-tool-for-firefox-accounts %}
