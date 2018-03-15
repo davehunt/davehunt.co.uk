@@ -41,5 +41,4 @@ Visit the [FxACLI package on PyPI][FxACLI] for links to the source code, issue t
 
 [Firefox Accounts]: https://developer.mozilla.org/en-US/docs/Mozilla/Tech/Firefox_Accounts
 [PyFxA]: https://github.com/mozilla/PyFxA
-[Click]: http://click.pocoo.org/
 [FxACLI]: https://pypi.python.org/pypi/fxacli
