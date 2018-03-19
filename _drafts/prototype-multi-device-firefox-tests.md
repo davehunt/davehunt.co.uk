@@ -260,6 +260,8 @@ Then we'll need to review the test cases that we'd want to write. Ideally we'd k
 
 Other ideas for future plans include:
 
+* Pre-populate Firefox with history instead of creating them through the user interface. Our prototype test loads a website and adds it to the bookmarks as a user would. Doing it this way is slow and prone to failure, so if we can pre-populate Firefox with this it would be an improvement.
+* Experiment with going back-and-forth between devices. This could be achieved by saving and restoring state between sessions, or by using an alternative tools that would allow for switching between multiple concurrent sessions.
 * Create a prototype for Firefox on Android. Perhaps we can reuse parts of this prototype, although we'd probably look into using some combination of UIAutomator, Espresso, and Appium for the Android automation parts.
 * Experiment with Appium as an alternative to XCUITest. I went with XCUITest because we already had something in place, but perhaps there's some value in switching these tests to using Appium. It's at least worth investigating.
 * Experiment with introducing WebDriver to the prototype. If we have a scenario that requires us to interact with either Firefox or web content (such as Firefox Accounts) then we may need to introduce WebDriver (Selenium).
@@ -280,6 +282,7 @@ If you're unable to run the tests locally, here's a recording of the test runnin
 [Firefox on iOS]: https://github.com/mozilla-mobile/firefox-ios
 [pytest]: https://docs.pytest.org/
 [PyFxA]: https://github.com/mozilla/PyFxA
+[automated UI tests for Firefox on iOS]: https://github.com/mozilla-mobile/firefox-ios/tree/master/XCUITests
 [TPS]: https://developer.mozilla.org/en-US/docs/Mozilla/Projects/TPS_Tests
 [building Firefox on iOS]: https://github.com/mozilla-mobile/firefox-ios#building-the-code
 [legacy Python]: http://docs.python-guide.org/en/latest/starting/installation/#legacy-python-2-installation-guides
