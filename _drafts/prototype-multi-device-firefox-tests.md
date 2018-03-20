@@ -274,7 +274,7 @@ I've been pushing my code to a branch on my fork of Firefox on iOS. You can see 
 
 If you're unable to run the tests locally, here's a recording of the test running along with reviewing the HTML report and logs:
 
-{% youtube "https://www.youtube.com/watch?v=SBOLJQSOIjI" %}
+{% youtube "https://www.youtube.com/watch?v=44DOpj4c07U" %}
 
 [Firefox Accounts]: https://developer.mozilla.org/en-US/docs/Mozilla/Tech/Firefox_Accounts
 [Firefox Sync]: https://wiki.mozilla.org/CloudServices/Sync
