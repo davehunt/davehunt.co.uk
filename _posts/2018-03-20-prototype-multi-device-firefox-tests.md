@@ -2,6 +2,7 @@
 layout: post
 title: Prototype multi-device Firefox tests
 slug: prototype-multi-device-firefox-tests
+date: '2018-03-20 14:26:25+00:00'
 ---
 With [Firefox Accounts][], you can access your tabs, history, and bookmarks from any device. You can even send tabs from one device to another, which is great when I find myself on a page that's not optimised for mobile, or if I get distracted at the weekend and find something I want to pick up when I get to work on Monday morning. While these features are awesome, I've had issues when the sync isn't triggered, or things don't go as expected. Some of these issues are known (and are being addressed), but currently it's too easy for regressions to be introduced.<!--more-->
 
